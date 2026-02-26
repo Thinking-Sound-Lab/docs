@@ -1,0 +1,9 @@
+/* Hide the single-tab label that Mintlify renders in the sidebar */
+[data-testid="sidebar-tab"],
+[role="tablist"],
+.sidebar-tab,
+nav[aria-label="Tabs"],
+[class*="TabsList"],
+[class*="tab-list"] {
+  display: none !important;
+}

@@ -1,0 +1,53 @@
+---
+title: "Video Models"
+description: "All available video generation models in Invook and their credit costs."
+icon: "video"
+---
+
+Invook supports a range of powerful video generation models. Each model uses a specific number of **credits** per generation.
+
+<Note>
+  Credits are deducted from your account balance each time a model runs. Free plan users receive **300 credits/month**. See [FAQs](/help/faqs) for more details.
+</Note>
+
+---
+
+## Available Video Models
+
+| Model Name | Credits per Generation |
+|---|---|
+| **Grok Imagine** | 12 credits |
+| **Veo 3** | 167 credits |
+| **Wan Effects** | 78 credits |
+| **Kling v2.6 Motion Control** | 78 credits |
+| **Kling o3** | 312 credits |
+| **Topaz Upscale** | 12 credits |
+
+---
+
+## How to Use Video Models
+
+1. Add a **Video Model** node to your Canvas using the [Add Node](/support/toolbox#3-add-node) tool
+2. Connect a **File** node (your input image or video) and a **Prompt** node
+3. Run the model to generate a new video
+
+<Tip>
+  New to the Canvas? Follow the [Create Your First Asset](/tutorial/create-first-asset) guide for a full walkthrough.
+</Tip>
+
+<Warning>
+  Video generation typically uses significantly more credits than image generation. Check your credit balance before running high-cost models like **Kling o3** (312 credits).
+</Warning>
+
+---
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Image Models" icon="image" href="/models/image">
+    Browse available image generation models and their credit costs.
+  </Card>
+  <Card title="Toolbox — Add Node" icon="toolbox" href="/support/toolbox">
+    Learn how to add model nodes to the Canvas.
+  </Card>
+</CardGroup>

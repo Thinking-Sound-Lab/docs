@@ -1,0 +1,78 @@
+---
+title: "Create Your First Asset"
+description: "Step-by-step guide to generating your first AI image or video on the Canvas."
+icon: "wand-magic-sparkles"
+---
+
+This guide walks you through generating your first asset using the Canvas. You'll connect an input, a prompt, and an AI model to produce a new image or video.
+
+---
+
+## What You'll Need
+
+- An image or file to use as input (optional for some models)
+- A description of what you want to generate
+- An image or video model selected from the [Image Models](/models/image) or [Video Models](/models/video) list
+
+---
+
+## Step-by-Step
+
+<Steps>
+  <Step title="Add an Image or File to the Canvas">
+    Use the **Add Node** tool to add a **File** node. Upload your image or document directly to the Canvas.
+
+    <Tip>
+      You can also use the **Assets** panel to drag existing stored files onto the Canvas.
+    </Tip>
+  </Step>
+
+  <Step title="Create a Prompt Node">
+    Use **Add Node** to add a **Prompt** node. Type a description of the output you want to generate.
+
+    **Example:** *"A futuristic cityscape at night with neon lights reflecting on wet pavement."*
+  </Step>
+
+  <Step title="Add a Generation Model">
+    Use **Add Node** to add an image or video generation model. For example, **Nano Banana Pro** for image generation.
+
+    Browse all available models:
+    - [Image Models](/models/image)
+    - [Video Models](/models/video)
+  </Step>
+
+  <Step title="Connect the Nodes">
+    Draw a connection from your **File** node and your **Prompt** node into the **Model** node's inputs.
+
+    The model will use both your input file and your prompt to generate a new asset.
+  </Step>
+
+  <Step title="Run and Review">
+    Hit **Run** on the model node. The generated asset will appear as a new output node on the Canvas, stored automatically in your Assets.
+  </Step>
+</Steps>
+
+---
+
+## Credit Usage
+
+Each generation uses credits based on the model you choose. Check the credit cost before running:
+
+<CardGroup cols={2}>
+  <Card title="Image Model Credits" icon="image" href="/models/image">
+    See credit costs for all image models.
+  </Card>
+  <Card title="Video Model Credits" icon="video" href="/models/video">
+    See credit costs for all video models.
+  </Card>
+</CardGroup>
+
+<Note>
+  Free plan users receive **300 credits/month**. Credits do not roll over. See [FAQs](/help/faqs) for more details on the free plan.
+</Note>
+
+---
+
+## Need Help?
+
+If something doesn't work as expected, visit the [FAQs](/help/faqs) or [contact support](/help/billing).
