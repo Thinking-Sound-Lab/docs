@@ -33,7 +33,8 @@
             "pages": [
               "models/image",
               "models/video",
-              "models/text"
+              "models/text",
+              "models/audio"
             ]
           },
           {
