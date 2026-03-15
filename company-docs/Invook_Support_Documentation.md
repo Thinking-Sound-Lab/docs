@@ -20,9 +20,9 @@ AI work often becomes fragmented across tools. This leads to re-uploading assets
 
 1\. Select
 
-Precision control for every node.
+Precision control for every Block.
 
-Click to select, move, resize, or configure any node on the Canvas. Manage properties, connections, and outputs with complete control.
+Click to select, move, resize, or configure any Block on the Canvas. Manage properties, connections, and outputs with complete control.
 
 2\. Pan
 
@@ -69,16 +69,23 @@ Add an image or file to the Canvas. Create a Prompt box describing what you want
 **d. AI models – Image, Video, and Text**
 
 ## **Image Models**
-
 | Model Name | Cost (Our) | Cost(Customer) | Credit | Code |
 | ----- | ----- | ----- | ----- | ----- |
-| **Imagen 4** | **$0.04** | **$0.08** | **9** | **fal-ai/imagen4/preview** |
-| **Nano Banana Pro** | **$0.165** | **$0.33** | **37** | **fal-ai/nano-banana-pro/edit** |
-| **Ideogram v3 (Turbo)** | **$0.03** | **$0.06** | **7** | **fal-ai/ideogram/v3** |
-| **Recraft V4 (Normal)** | **$0.04** | **$0.08** | **9** | **fal-ai/recraft/v4/text-to-image** |
-| **Flux Kontext** | **$0.04** | **$0.08** | **9** | **fal-ai/flux-pro/kontext/text-to-image** |
-| **Bria Fibo Relight** | **$0.04** | **$0.08** | **9** | **bria/fibo-edit/relight** |
-| **Topaz Upscale** | **$0.08** | **$0.16** | **18** | **fal-ai/topaz/upscale/image**  |
+| **Flux Schnell** | **$0.01** | **$0.02** | **0.3** | **fal-ai/flux/schnell** |
+| **Bria Background Remove** | **$0.01** | **$0.02** | **2** | **fal-ai/bria/remove-background** |
+| **Flux 2 Pro** | **$0.015** | **$0.03** | **3** | **fal-ai/flux-pro/v2** |
+| **Ideogram V3 (Turbo)** | **$0.015** | **$0.03** | **3** | **fal-ai/ideogram/v3/turbo** |
+| **Kling Image V3** | **$0.015** | **$0.03** | **3** | **fal-ai/kling-image/v3** |
+| **Recraft V3** | **$0.02** | **$0.04** | **4** | **fal-ai/recraft/v3** |
+| **Imagen 4 Fast** | **$0.02** | **$0.04** | **4** | **fal-ai/imagen4/fast** |
+| **Seedream V4.5** | **$0.02** | **$0.04** | **4** | **fal-ai/seedream/v4.5** |
+| **Imagen 4 Standard** | **$0.025** | **$0.05** | **5** | **fal-ai/imagen4/standard** |
+| **Ideogram V3 (Balanced)** | **$0.03** | **$0.06** | **6** | **fal-ai/ideogram/v3/balanced** |
+| **Imagen 4 Ultra** | **$0.03** | **$0.06** | **6** | **fal-ai/imagen4/ultra** |
+| **Nano Banana 2** | **$0.03** | **$0.06** | **6** | **fal-ai/nano-banana-2** |
+| **Topaz Image Upscale** | **$0.04** | **$0.08** | **8** | **fal-ai/topaz/upscale/image** |
+| **Ideogram V3 (Quality)** | **$0.045** | **$0.09** | **9** | **fal-ai/ideogram/v3/quality** |
+| **Nano Banana Pro** | **$0.075** | **$0.15** | **15** | **fal-ai/nano-banana-pro/edit** |
 
 ### 
 
@@ -86,12 +93,20 @@ Add an image or file to the Canvas. Create a Prompt box describing what you want
 
 | Model Name | Cost (Our) | Cost(Customer) | Credit | Code |
 | ----- | ----- | ----- | ----- | ----- |
-| **Grok Imagine** | **$0.05** | **$0.10** | **12** | **xai/grok-imagine-video/text-to-video** |
-| **Veo 3** | **$0.75** | **$1.5** | **167** | **fal-ai/veo3/fast** |
-| **Wan Effects** | **$0.35** | **$0.70** | **78** | **fal-ai/wan-effects** |
-| **Kling v2.6 Motion Control** | **$0.35** | **$0.70** | **78** | **fal-ai/kling-video/v2.6/standard/motion-control** |
-| **Kling o3** | **$1.4** | **$2.8** | **312** | **fal-ai/kling-video/o3/pro/text-to-video** |
-| **Topaz Upscale** | **$0.05** | **$0.10** | **12** | **fal-ai/topaz/upscale/video** |
+| **Grok Imagine Video** | **$0.25** | **$0.50** | **100** | **xai/grok-imagine-video/text-to-video** |
+| **Kling V2.6 Pro** | **$0.35** | **$0.70** | **140** | **fal-ai/kling-video/v2.6/pro** |
+| **Veo 3.1 (Text, Fast)** | **$0.40** | **$0.80** | **160** | **fal-ai/veo3.1/fast** |
+| **Veo 3.1 (Text, Standard)** | **$0.80** | **$1.60** | **320** | **fal-ai/veo3.1/standard** |
+| **Kling Motion Control** | **$0.35** | **$0.70** | **140** | **fal-ai/kling-video/v2.6/standard/motion-control** |
+| **Kling O3 V2V Edit** | **$1.25** | **$2.50** | **504** | **fal-ai/kling-video/o3/v2v-edit** |
+| **Topaz Video Upscale** | **$3.75** | **$7.50** | **1,501** | **fal-ai/topaz/upscale/video** |
+| **Veo 3.1 (Image, no audio)** | **$0.40** | **$0.80** | **160** | **fal-ai/veo3.1/image/no-audio** |
+| **Veo 3.1 (Image, with audio)** | **$0.80** | **$1.60** | **320** | **fal-ai/veo3.1/image/with-audio** |
+| **Sora 2 Pro** | **$0.30** | **$0.60** | **120** | **openai/sora-2/pro** |
+| **PixVerse V5** | **$0.04** | **$0.08** | **15** | **fal-ai/pixverse/v5** |
+| **Luma Ray 2** | **$0.125** | **$0.25** | **50** | **fal-ai/luma-ray/v2** |
+| **Luma Ray 2 Flash** | **$0.05** | **$0.10** | **20** | **fal-ai/luma-ray/v2/flash** |
+| **Wan Effects** | **$0.08** | **$0.16** | **35** | **fal-ai/wan-effects** |
 
 ## **Tutorial**
 
@@ -428,7 +443,7 @@ b. FAQs
 ---
 
 3. **Can I use the AI tools for free?**  
-   Yes, free users can access AI tools on the Canvas to generate assets. In the free plan you get 300 credits and can create up to 2 canvases. If there are unused credits in your account then there will not be a ‘roll-over’ of credits in the following month. 300 credits/month. No rolling credits.
+   Yes, free users can access AI tools on the Canvas to generate assets. In the free plan you get 150 credits and can create up to 2 canvases. If there are unused credits in your account then there will not be a ‘roll-over’ of credits in the following month. 150 credits/month. No rolling credits.
 
    ---
 
