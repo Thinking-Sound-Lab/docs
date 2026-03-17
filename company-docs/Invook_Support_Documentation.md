@@ -40,7 +40,7 @@ Includes:
 
 Helpers \- File, Array, List Select
 
-Text Tools \- Prompt, Concatenator, Any LLM
+Text Tools \- Prompt, Prompt Combiner, Assistant
 
 Generation Models \- Image & Video models
 
@@ -438,7 +438,7 @@ b. FAQs
 ---
 
 2. **How are AI credits used?**  
-   When you use text tools like Prompt, Concatenator, Any LLM and video/image models to create your assets on the Canvas, you will be using a specific number of credits that are attached to those models and tools. You can refer to the table above to view the breakdown of the credit usage against specific models.
+   When you use text tools like Prompt, Prompt Combiner, Assistant and video/image models to create your assets on the Canvas, you will be using a specific number of credits that are attached to those models and tools. You can refer to the table above to view the breakdown of the credit usage against specific models.
 
 ---
 
