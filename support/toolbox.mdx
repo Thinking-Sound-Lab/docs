@@ -38,17 +38,31 @@ Access the complete library of available Blocks and drop them directly onto the 
 
 | Category | Blocks |
 |---|---|
-| **Helpers** | File, Array, List Select |
-| **Text Tools** | Prompt, Concatenator, Any LLM |
-| **Generation Models** | [Image Models](/models/image), [Video Models](/models/video) |
+| **Helpers** | File , List , List Select, Group (Container) |
+| **Text Tools** | Prompt , Prompt Combiner, Assistant  |
 
-<Tip>
-  Compose custom pipelines by connecting tools, models, and logic exactly the way you need.
-</Tip>
+
 
 ---
 
-## 4. Assets
+## 4. Block Definitions
+
+Understand every component of your workflow.
+
+| Block | Description |
+|---|---|
+| **File** | A workflow component used to upload and manage files such as PDFs, images, videos, audio, and documents. These files can be accessed and processed by other blocks or used as AI input for document analysis, image processing, and file-based workflows. |
+| **List** | A block designed to store and manage multiple data items (text) in an array or list format. This makes it easy to handle collections of data, such as multiple inputs, results, or options that need to be processed together. You can use a separator (special characters) to convert a whole text (prompt, storyline, etc.) to individual sentences which can then be used independently. <Note>Remember you can not connect a multimedia block to this block.</Note> |
+| **List Select** | A user input block that displays a selectable list of options and allows users to choose one or multiple items. The selected values can be used as dynamic inputs in your AI workflows. You can connect the List block to your List Select block so that you can view the text separated by the separator in the form of a list. Choose from this list of options to connect to any other canvas block that accepts text as an input. |
+| **Group (Container)** | A workflow organization block that combines multiple blocks into a single unit. It helps structure complex workflows, improves readability, and enables modular workflow design and better process management. |
+| **Prompt** | A block used to define AI instructions, context, and input data. It prepares the message that will be sent to the AI model for natural language processing, content generation, or AI-powered tasks. |
+| **Prompt Combiner** | A block that merges multiple prompts or inputs into a single structured prompt. This ensures the AI receives complete context and optimized instructions for better response generation. |
+| **Assistant** | The execution block that runs the AI model using the prepared prompt, files, or images. It processes the inputs and generates AI-powered responses, insights, or outputs within the workflow. |
+
+---
+
+
+## 5. Assets
 
 **Your built-in Drive.**
 
@@ -71,7 +85,7 @@ Store and organize images, videos, documents, and links — directly inside Invo
 
 ---
 
-## 5. Comment
+## 6. Comment
 
 **Collaborate in context.**
 
@@ -96,3 +110,4 @@ Leave feedback directly on Blocks and generated outputs — whether it's an imag
     Follow a step-by-step guide to generate your first AI image or video.
   </Card>
 </CardGroup>
+
